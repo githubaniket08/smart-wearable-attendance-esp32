@@ -28,27 +28,15 @@ The goal was to remove two persistent problems with manual attendance systems: p
 
 ## ✅ Applications
 
-- Automated attendance marking without manual intervention
-- Prevention of proxy or fake attendance using ECG-based biometric verification
-- Real-time location verification through GPS-based geofencing
-- Secure and reliable storage of attendance data in Firebase
-- Improved accuracy and transparency in attendance records
-- Reduced administrative workload and time consumption
-- Suitable for colleges, universities, and other educational institutions
-- Useful in workplaces for employee attendance and access control
-- Applicable in secure or restricted environments requiring identity verification
-- Enables real-time monitoring and future analysis of attendance data
+- Automated, proxy-proof attendance for colleges, universities, and workplaces
+- Real-time attendance sync to Firebase for instant dashboards, audits, and reporting
+- Identity + location verification for secure or restricted-access environments
 
 ## 🎯 Use cases
 
-- A student's attendance is automatically marked when they enter the campus wearing the authorized device.
-- Faculty can view real-time attendance status without manual roll calls.
-- The system prevents a student from marking attendance for someone else (proxy attendance).
-- Attendance is denied if the person is outside the predefined geofenced area.
-- Administrators can access securely stored attendance records for audits and reports.
-- Employees' attendance is recorded automatically when they arrive at the workplace.
-- The system ensures only authorized personnel can access restricted areas.
-- Attendance data can be analyzed later to track regularity and punctuality.
+- Attendance is marked automatically the moment an authorized student enters the campus geofence — no manual roll call
+- A student cannot mark attendance on someone else's behalf; both ECG identity and GPS location must match
+- Administrators get securely logged, auditable records for tracking regularity and punctuality over time
 
 ## ⚠️ Design challenge
 
