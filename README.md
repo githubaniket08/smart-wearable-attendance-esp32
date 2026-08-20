@@ -58,7 +58,3 @@ A core engineering challenge in this system is signal reliability: ensuring ECG 
 └── README.md
 ```
 
-## 👤 Author
-
-**Aniket Patil**
-CS (AI) undergraduate, KLE Technological University
