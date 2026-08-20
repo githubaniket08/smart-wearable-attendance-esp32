@@ -1,4 +1,4 @@
-# 💓 Smart Wearable Attendance System — ECG + GPS + ESP32
+# 🛜 Smart Wearable Attendance System — ECG + GPS + ESP32
 
 An IoT-based attendance system that verifies *who* you are and *where* you are before marking you present — combining ECG-based biometric identity with GPS geofencing, on an ESP32, synced to Firebase in real time.
 
